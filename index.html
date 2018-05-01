@@ -14,8 +14,8 @@
             <a class="principal-title" href="#">START BOOTSTRAP</a></li>
             <div class="top-menu">
                <ul>
- 			            <li><a href="#">PORTFOLIO</a></li>
- 			            <li><a href="#">ABOUT</a></li>
+ 			            <li><a href="#portfolio">PORTFOLIO</a></li>
+ 			            <li><a href="#about">ABOUT</a></li>
  		              <li><a href="#contact">CONTACT</a></li>
  		           </ul>
              </div>
@@ -32,7 +32,7 @@
     </section>
    <!--SECCION DEL PORTAFOLIO-->
 
-   <section class="section-white section-portfolio">
+   <section class="section-white section-portfolio" id="portfolio">
       <!--BLOQUE SUPERIOR DE FOTOS-->
       <h1 class="title-portfolio">PORTFOLIO</h1>
       <hr class="hr-format-blue">
@@ -64,7 +64,7 @@
   </section> <!-- CIERRE DE LA SECCION DE PORTAFOLIO -->
 
   <!--SECCION ABOUT-->
-  <section class="section-green">
+  <section class="section-green" id="about">
       <h1 class="title-white">ABOUT</h1>
       <hr class="hr-format hr-format-second">
       <i class="fas fa-star star-white-second"> </i>
@@ -87,22 +87,24 @@
     <i class="fas fa-star fa-star-blue"> </i>
     <form class="format-form">
       <div >
-         <label for="name-input">NAME</label>
+         <label for="name-input"></label>
           <input class="input-gen" type="text" id="name-input" placeholder="Name">
       </div>
       <div>
-         <label for="email-input">Email Adress</label>
+         <label for="email-input"></label>
           <input class="input-gen" type="text" id="email-input" placeholder="Email Adress">
       </div>
       <div>
-         <label for="phone-input">Phone Number</label>
+         <label for="phone-input"></label>
           <input class="input-gen" type="text" id="phone-input" placeholder="Phone Number">
       </div>
       <div>
-         <label for="message-input">Message</label>
+         <label for="message-input"></label>
           <input class="input-gen" type="text" id="message-input" placeholder="Message">
       </div>
-
+      <div class="buttom-send">
+          <a class= "format-a-send" href="#">SEND</a>
+      </div>
     </form>
   </section>
   <footer class="footer">
