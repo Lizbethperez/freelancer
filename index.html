@@ -8,21 +8,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body class="color-fondo">
-     <header>
-       <nav>
-          <div>
+  <body>
+       <nav class ="navbar">
+         <div>
             <a class="principal-title" href="#">START BOOTSTRAP</a></li>
-            <div>
+            <div class="top-menu">
                <ul>
  			            <li><a href="#">PORTFOLIO</a></li>
  			            <li><a href="#">ABOUT</a></li>
- 		              <li><a href="#">CONTACT</a></li>
+ 		              <li><a href="#contact">CONTACT</a></li>
  		           </ul>
-            </div>
+             </div>
           </div>
       </nav>
-    </header>
+
     <!--SECCION PNCIPAL -->
     <section>
               <img class="image-principal"src="assets/images/profile.png" alt="">
@@ -82,26 +81,67 @@
   </section>
 
   <!--CONTACT ME -->
-  <section class="section-white section-contact" >
-    <form>
-      <div>
+  <section class="section-white section-contact" id="contact" >
+    <h1 class="title-portfolio">CONTACT ME</h1>
+    <hr class="hr-format-blue">
+    <i class="fas fa-star fa-star-blue"> </i>
+    <form class="format-form">
+      <div >
          <label for="name-input">NAME</label>
-          <input type="text" id="name-input">
+          <input class="input-gen" type="text" id="name-input" placeholder="Name">
       </div>
       <div>
          <label for="email-input">Email Adress</label>
-          <input type="text" id="email-input">
+          <input class="input-gen" type="text" id="email-input" placeholder="Email Adress">
       </div>
       <div>
          <label for="phone-input">Phone Number</label>
-          <input type="text" id="phone-input">
+          <input class="input-gen" type="text" id="phone-input" placeholder="Phone Number">
       </div>
       <div>
          <label for="message-input">Message</label>
-          <input type="text" id="message-input">
+          <input class="input-gen" type="text" id="message-input" placeholder="Message">
       </div>
 
     </form>
   </section>
+  <footer class="footer">
+    <div >
+      <div class="div-conteiner" >
+        <h4 > LOCATION </h4>
+          <p>2215 John Daniel Drive
+            <br>Clark, MO 65243
+          </p>
+      </div>
+      <div class="div-conteiner">
+        <h4 >AROUND THE WEB</h4>
+        <ul>
+           <li class="social-list-item">
+             <a class="border-circle" href="#"><i class="fab fa-facebook"></i></a>
+           </li>
+           <li class="social-list-item">
+              <a class="border-circle" href="#"><i class="fab fa-google-plus"></i></a>
+           </li>
+           <li class="social-list-item">
+              <a class="border-circle" href="#"><i class="fab fa-twitter-square"></i></a>
+           </li>
+           <li class="social-list-item">
+              <a class="border-circle" href="#"><i class="fab fa-linkedin"></i></a>
+           </li>
+           <li class="social-list-item">
+              <a class="border-circle" href="#"><i class="fab fa-dribbble-square"></i></a>
+           </li>
+        </ul>
+
+      </div>
+      <div class="div-conteiner">
+        <h4 >ABOUT FREELANCER</h4>
+        <p>Freelance is a free to use, open source Bootstrap theme created by</p>
+      </div>
+    </div>
+  </footer>
+  <div class="copy-right">
+    <small>Copyright © Your Website 2018</small>
+  </div>
  </body>
 </html>
